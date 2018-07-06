@@ -1,0 +1,438 @@
+
+/*COLORS
+
+color-primary: #5c20ac;
+color-primary-light: #8864c4;
+color-primary-dark: #470574;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(236, 204, 241);
+    color: rgb(12, 11, 11);
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-weight: 300;
+}
+
+/* ...... HEADER ...... */
+
+.header {
+    opacity: 1;
+    height: 85vh;
+    background-image: linear-gradient(
+        to right, #8964c4d5, #480574d5), url(../img/hero.jpg);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);    
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.header-logo-box {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-logo {
+    height: 8rem;
+}
+
+.header-text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 5px;
+    width: 70%;
+    height: 12%;
+}
+
+.heading-primary {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+
+.heading-primary-main {
+    font-weight: 900;
+    color: #fff;
+}
+
+.heading-primary-sub {
+    font-size: 1.6rem;
+}
+
+.btn-mulai-1,
+.btn-mulai-2,
+.btn-mulai-3 {
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #5c20ac;
+    transition: all .2s;
+}
+
+.btn-mulai-2,
+.btn-mulai-1 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.699);
+}
+
+.btn-mulai-2,
+.btn-mulai-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2rem 0 4rem 0;
+}
+
+.btn-mulai-3 {
+    top: 115%;
+    margin-bottom: 10rem;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(66, 3, 82, 0.699);
+}
+
+.btn-back-1 {
+    top: 145%;
+    float: right;
+    margin-top: 13rem;
+    margin-right: 2rem;
+    color: #5c20ac;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 550;
+    padding: 5px 10px;
+}
+
+.btn-back-2 {
+    position: absolute;
+    top: 95%;
+    right: -1%;
+    margin-right: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 550;
+    padding: 5px 10px;
+}
+
+/* ...... KET ...... */
+
+.section-ket {
+    height: 120vh;
+}
+
+.col {
+    margin: 0 auto;
+    width: 75%;
+    background-color: #ecebec;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 5rem;
+    height: 20rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.699);
+}
+
+.list {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.6rem;
+}
+
+h3 {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 550;
+    padding: 5px 15px;
+    top: 25%;
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+    letter-spacing: 2px;
+}
+
+.text-ket {
+    position: absolute;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    top: 50%;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* ...... ADD ...... */
+
+.section-add {
+    height: 160vh;
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    background-color: rgb(236, 204, 241);
+    position: relative;
+    margin-bottom: 30rem;
+}
+
+.heading-secondary {
+    text-transform: uppercase;
+    position: absolute;
+    top: 3.5%;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin: 0 20%;
+    background-color: #8864c4;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+}
+
+.foto2 {
+    margin-top: 3rem;
+}
+
+.foto-add-ibadah li {
+    width: 40%;
+    display: inline;
+    float: left;
+}
+
+.foto-add-ibadah li:hover,
+.foto-add-ibadah li:active {
+    width: 40%;
+}
+
+.foto-ibadah {
+    transform: scale(.6);
+    padding: 5px;
+    background-color: #8864c4;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+    transition: all .2s;
+}
+
+.foto-ibadah:hover {
+    outline: 1rem solid #470574;
+}
+
+.foto-ibadah:active {
+    outline: 1rem solid #470574;
+}
+
+.photo {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.tambah-ibadah1,
+.tambah-ibadah2 {
+    margin-left: 5rem;
+    margin-top: 4rem;
+    text-align: center;
+    padding: 5px;
+    width: 14rem;
+    height: 7rem;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+}
+
+.tambah {
+    width: 24rem;
+    height: 4rem; 
+    background-color: #8864c4;
+    display: inline-block;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+    transform: scale(.6);
+    margin-bottom: 5rem;
+}
+
+/* ... LAPORAN ... */
+
+.section-laporan {
+    height: 110vh;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2500;
+    background-color: #5a2ca5;
+    border-radius: 10px;
+    height: 80rem;
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+}
+
+.heading-tertiary {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: rgb(27, 25, 31);
+    width: 82%;
+    display: inline-block;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+}
+
+.nilai {
+    width: 6.5rem;
+    height: 6.5rem;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 3rem auto 0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+    position: relative;
+}
+
+.nilai-ibadah {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #032bdf;
+    background-color: transparent;
+}
+
+.nilai-anda {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #032bdf;
+    background-color: transparent;
+}
+
+.list-ibadah {
+    margin-top: 2rem;
+    padding: 2rem 6rem;
+    font-size: 1.4rem;
+    font-weight: 550;
+    display: block;
+    letter-spacing: 2px;
+    color: #fff;
+    display: inline-block;
+}
+
+.closing {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 1.4rem;
+    font-weight: 550;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    background-color: rgb(78, 77, 77);
+    height: 5rem;
+    border-radius: 3px;
+    margin-top: -2rem;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.note {
+    margin-left: 2rem;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+.hitung { 
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    padding: 3px 5px;
+    width: 7rem;
+    font-weight: 600;
+    background-color: #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
+    display: none;
+}
+
+.pengingat {
+    margin-top: 6rem;
+}
+
+.ibadah-1,
+.ibadah-2,
+.ibadah-3,
+.ibadah-4,
+.ibadah-5,
+.ibadah-6,
+.ibadah-7,
+.ibadah-8 {
+    display: none;
+    margin-bottom: .5rem;
+}
+
+.laporan1,
+.laporan2,
+.laporan3,
+.laporan4,
+.laporan5,
+.laporan6,
+.laporan7,
+.laporan8 {
+    margin: .5rem 0;
+    width: 120%;
+    padding: 3px;
+}

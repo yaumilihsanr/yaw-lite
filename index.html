@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">-->
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/icon-font.css">
+        
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+        
+        
+        <title>Yawme Lite</title>
+    
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="header-logo-box">
+                <img src="img/logo-yawme.jpg" alt="Logo" class="header-logo">
+            </div>
+                
+            <div class="header-text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary-main">Yawme Lite, </span>
+                    <span class="heading-primary-sub">Your Simply Ibadah Tracker</span>
+                </h1>
+                
+                <a href="#section-ket" class="btn-mulai-1">Mulai</a>
+            </div>
+                
+        </header>
+
+        <main>
+            <section class="section-ket" id="section-ket">
+                <div class="row">
+                    <div class="col span-1-of-2">
+                        <i class="list icon icon-basic-book"></i>
+                        <h3>Pilih ibadah harian</h3>
+                        <p class="text-ket">
+                            Pilh ibadah harian yang ingin kamu lakukan minggu ini. Kamu juga bisa menambahkan ibadah baru ke dalam list ibadah harian :).
+                        </p>
+                    </div>   
+                    <div class="col span-1-of-2">
+                        <i class="list icon icon-basic-map"></i>
+                        <h3>Pantau perfroma ibadahmu minggu ini</h3>
+                        <p class="text-ket">
+                            Check progres ibadahmu minggu ini. Berapa persen yang sudah terlaksana. Jangan lupa untuk keep istiqamah dan tingkatkan terus ibadahmu :).
+                        </p>
+                    </div>                      
+                </div>
+
+                <div class="row">
+                    <a href="#section-add" class="btn-mulai-2">Mulai ibadah</a>
+                </div> 
+                
+            </section>
+
+            <section class="section-add" id="section-add">
+                <div class="row">
+                    <h2 class="heading-secondary">Pilih Ibadah Harianmu Untuk Minggu Ini</h2>
+                </div>
+                
+                <div class="foto2">
+                        <ul class="foto-add-ibadah">
+                            <li>
+                                <button class="foto-ibadah foto-ibadah-1">
+                                    <img src="img/almatsurat.jpg" alt="Al-Matsurat">
+                                    <p class="photo">Dzikir Al-Matsurat</p>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="foto-ibadah foto-ibadah-2">
+                                    <img src="img/tahajud.jpg" alt="Tahajud">
+                                    <p class="photo">Sholat Tahajud</p>
+                                </button>
+                            </li>
+                        </ul>  
+                        <ul class="foto-add-ibadah">
+                            <li>
+                                <button class="foto-ibadah foto-ibadah-3">
+                                    <img src="img/tilawah.jpg" alt="Tilawah">
+                                    <p class="photo">Tilawah</p>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="foto-ibadah foto-ibadah-4">
+                                    <img src="img/buku.jpg" alt="Buku">
+                                    <p class="photo">Baca Buku</p>
+                                </button>
+                            </li>
+                        </ul>   
+                        <ul class="foto-add-ibadah">
+                            <li>
+                                <button class="foto-ibadah foto-ibadah-5">
+                                    <img src="img/sunnah.jpg" alt="Rawatib">
+                                    <p class="photo">Sunnah Rawatib</p>
+                                </button>
+                            </li>
+                            <li>
+                                <button class="foto-ibadah foto-ibadah-6">
+                                    <img src="img/infaq.jpg" alt="Sedekah">
+                                    <p class="photo">Sedekah</p>
+                                </button>
+                            </li>
+                        </ul>    
+                        <ul class="foto-add-ibadah">
+                            <li>
+                                <input type="text" placeholder="Tambah Ibadah Baru" class="tambah-ibadah1">
+                                <button class="tambah tambah-ibadah-7"> 
+                                    <p class="photo">Tambahkan</p>
+                                </button>
+                            </li>
+                            <li>
+                                <input type="text" placeholder="Tambah Ibadah Baru" class="tambah-ibadah2">
+                                <button class="tambah tambah-ibadah-8">
+                                    <p class="photo">Tambahkan</p>
+                                </button>
+                            </li>
+                        </ul>            
+                </div>
+                   
+                <div class="row">
+                    <a href="#section-laporan" class="btn-mulai-3">Simpan</a>
+                </div>
+
+                <a href="#header" class="btn-back-1">kembali</a>
+                
+            </section>
+
+            <section class="section-laporan">
+                <div class="row">
+                    <h2 class="heading-tertiary">Lihat Performa Ibadahmu Minggu Ini</h2>
+                    <p class="note">Note: isi berdasarkan jumlah ibadah terlaksana selama 1 minggu</p>
+                </div>
+
+                <div class="row">
+                    <div class="nilai">
+                        <p class="nilai-anda">
+                            Nilai anda
+                        </p>
+                        <p class="nilai-ibadah"></p>
+                    </div>
+                </div>
+
+                <div class="row"></div>
+                    <ul class="list-ibadah">
+                        <li class="pengingat">
+                            <p>Belum ada ibadah yang dipilih</p>
+                        </li>
+                        <li class="ibadah-1">
+                            <p class="ibadah-pilihan-1"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan1">
+                        </li>
+                        <li class="ibadah-2">
+                            <p class="ibadah-pilihan-2"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan2">
+                        </li>
+                        <li class="ibadah-3">
+                            <p class="ibadah-pilihan-3"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan3">
+                        </li>
+                        <li class="ibadah-4">
+                            <p class="ibadah-pilihan-4"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan4">
+                        </li>
+                        <li class="ibadah-5">
+                            <p class="ibadah-pilihan-5"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan5">
+                        </li>
+                        <li class="ibadah-6">
+                            <p class="ibadah-pilihan-6"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan6">
+                        </li>
+                        <li class="ibadah-7">
+                            <p class="ibadah-pilihan-7"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / mg" class="laporan7">
+                        </li>
+                        <li class="ibadah-8">
+                            <p class="ibadah-pilihan-8"></p>
+                            <input type="number" placeholder="jumlah ibadah terlaksana / minggu" class="laporan8">
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="hitung">
+                    Hitung Nilai Ibadah
+                </button>
+
+                <div class="row">
+                    <p class="closing">
+                        Tingkatkan lagi ibadahmu :)
+                    </p>
+                </div>
+
+                <a href="#section-add" class="btn-back-2">kembali</a>
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="row">
+                <p class="copyright">
+                    Yawme Lite, Badr Interactive Product. Copyright &copy; 2018, develop by Ihsan R. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
