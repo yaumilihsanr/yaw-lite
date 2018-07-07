@@ -38,17 +38,29 @@ body {
 .header {
     opacity: 1;
     height: 85vh;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#8964c4d5), to(#480574d5)), url(../img/hero-3.jpg);
-    background-image: linear-gradient(#8964c4d5, #480574d5), url(../img/hero-3.jpg);
+    background-image: -webkit-gradient (linear, left top, right bottom, from (#8964c4d5), to(#480574d5)), url(../img/hero-3.jpg);
+    background-image: linear-gradient(to right bottom, #8964c4d5, #480574d5), url(../img/hero-3.jpg);
     /*background-image: linear-gradient(
         to right bottom, #8964c4d5, #480574d5), url(../img/hero.jpg);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);*/    
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-attachment: fixed;
     position: relative;
 }
+    @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
+        .header {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            height: 85vh; } }
+    @media (min-resolution: 192dpi) and (min-width: 37.5em), (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), (min-width: 125em) {
+        .header {
+            background-image: linear-gradient(to right bottom, #8964c4d5, #480574d5), url(../img/hero-3.jpg); } }
+    @media (max-width: 37.5em) {
+        .header {
+            -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%); } }
 
 .header-logo-box {
     position: absolute;
