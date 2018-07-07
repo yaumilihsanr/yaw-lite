@@ -21,8 +21,9 @@
     .tambah-ibadah1,
     .tambah-ibadah2 { margin-left: 3rem; }
     .tambah { margin-left: -2rem; }
-    .header { background-image: linear-gradient(
-        to right, #8964c4d5, #480574d5), url(../img/hero-small.jpg); }
+    .header { 
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#8964c4d5), to(#480574d5)), url(../img/hero-3.jpg);
+        background-image: linear-gradient(#8964c4d5, #480574d5), url(../img/hero-3.jpg); }
 }
 
 /* Small phones: from 0 to 480px */
@@ -73,8 +74,8 @@
     .header {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);    
         clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
-        background-image: linear-gradient(
-        to right, #8964c4d5, #480574d5), url(../img/hero-small.jpg);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#8964c4d5), to(#480574d5)), url(../img/hero-3.jpg);
+        background-image: linear-gradient(#8964c4d5, #480574d5), url(../img/hero-3.jpg);
     }
 } 
 
