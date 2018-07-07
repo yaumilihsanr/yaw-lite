@@ -1,0 +1,150 @@
+
+
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+@media only screen and (max-width:1200px) {
+
+} 
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width:1023px) {
+
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width:767px) {
+    h2 { font-size: 1.2rem; }
+    .hitung { right: 13%; }
+    .note { margin-left: 4rem; }
+    .btn-back-2,
+    .btn-back-1 { right: 5%; }
+    .foto-ibadah { margin-left: -2rem; }
+    .tambah-ibadah1,
+    .tambah-ibadah2 { margin-left: 3rem; }
+    .tambah { margin-left: -2rem; }
+    .header { background-image: linear-gradient(
+        to right, #8964c4d5, #480574d5), url(../img/hero-small.jpg); }
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width:480px) {
+    .closing { top: 88% }
+    .btn-back-2 { 
+        top: 92%;
+    }
+    .btn-back-2,
+    .btn-back-1 { right: 5%; }
+    .section-laporan { height: 135vh; }
+    .note { 
+        top: 15%; 
+        margin-right: 3rem;
+    }
+    .copyright { padding: 5px 20px; }
+    .foto-ibadah { 
+        left: 63%;
+        transform: translateX(-63%);
+        transform: scale(.5); 
+    }
+    .tambah-ibadah1,
+    .tambah-ibadah2 { 
+        margin: 4rem 32% 0 32%;
+        height: 7rem;
+        width: 12rem;
+    }
+    .tambah { 
+        left: 63%;
+        transform: translateX(-63%);
+        transform: scale(.5);
+    }
+    .nilai {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+    .hitung { 
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%); 
+    }
+    body { width: 126%; }
+    .btn-mulai-2 { 
+        left: 73%;
+        transform: translateX(-73%);
+        width: 16rem; 
+        text-align: center;
+    }
+
+
+}
+
+
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+/*
+@media only screen and (max-width:1200px) {
+
+    .row { padding: 0 2%; }
+    html { font-size: 10px; }
+    .footer { margin-top: 20rem; }
+    .btn-mulai-3 { margin-top: 30rem; }
+    .btn-back-1 { margin-top: 30rem; }
+    .section-laporan { height: 160vh;}
+
+} 
+
+/* Small tablet to big tablet: from 768px to 1023px */
+/*@media only screen and (max-width:1023px) {
+
+    .copyright { 
+        font-size: .8rem;
+        padding: 5px 20px; 
+    }
+    .heading-primary-main { font-size: 2rem; }
+    .footer { 
+        margin-bottom: 0;
+        margin-top: 17rem; 
+    }
+    section { padding: 60px 0; }
+    html { font-size: 25px; }
+    .col { width: 100%; }
+    .row { 
+        margin-top: 5rem;
+        max-width: 800px;
+    }
+    .btn-mulai-2 { padding: 8px 20px; }
+    .span-1-of-2 { margin-bottom: 10rem; }
+    h2 { font-size: 1.3rem; }
+    .note { margin-top: 4.5rem; }
+    .tambah-ibadah1,
+    .tambah-ibadah2 { margin-left: 4rem; }
+    .tambah { width: 22rem; }
+    .text-ket { font-size: 1.3rem; }
+    .btn-mulai-3 { top: 90%; }
+    .btn-back-1 { top: 95%; }
+    .nilai { top: 30%; }
+    .list-ibadah { margin-top: 8.5rem; }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+/*@media only screen and (max-width:767px) {
+
+    html { font-size: 16px; }
+    section { padding: 20px 0; }
+    .nilai { top: 40%; }
+    .list-ibadah { margin-top: 9rem; }
+    .note { margin-top: 3.5rem; }
+    
+}
+
+/* Small phones: from 0 to 480px */
+/*@media only screen and (max-width:480px) {
+
+    section { padding: 25px 0; }
+    html { font-size: 16px; }
+    .col { width: 100%; }
+    .text-ket { font-size: 1.8rem; }
+    .row { width: 95%; }
+    .header-logo-box { 
+        top: 15%;
+        transform: scale(2);
+    }
+    body { height: 200vh;}
+    .header-logo { height: 10rem;}
+}
