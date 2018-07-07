@@ -241,6 +241,12 @@ $(document).ready(function() {
     });
 });
 
+$(document).ready(function() {
+    $('.hitung').click(function () {
+        $('html, body').animate({scrollTop: $('.section-laporan').offset().top}, 1000);
+    });
+});
+
 
 
 
