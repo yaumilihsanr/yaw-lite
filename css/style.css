@@ -114,21 +114,12 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.699);
 }
 
-.btn-mulai-2,
-.btn-mulai-3 {
+.btn-mulai-2 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     margin: 2rem 0 4rem 0;
     z-index: 100;
-}
-
-.btn-mulai-3 {
-    top: 115%;
-    margin-bottom: 10rem;
-    text-align: center;
-    letter-spacing: 1px;
-    box-shadow: 0 2px 4px rgba(66, 3, 82, 0.699);
 }
 
 .btn-back-1 {
@@ -219,6 +210,22 @@ h3 {
     margin-bottom: 30rem;
 }
 
+.btn-mulai-3 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2rem 0 4rem 0;
+    z-index: 100;
+}
+
+.btn-mulai-3 {
+    top: 115%;
+    margin-bottom: 10rem;
+    text-align: center;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 4px rgba(66, 3, 82, 0.699);
+}
+
 .heading-secondary {
     text-transform: uppercase;
     position: absolute;
@@ -297,7 +304,7 @@ h3 {
     display: none;
     position: relative;
     background-color: #5a2ca5;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.699);
     overflow: hidden;
 }
