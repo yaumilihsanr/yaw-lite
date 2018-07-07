@@ -201,7 +201,7 @@ h3 {
 
 .section-add {
     height: 160vh;
-    display: block;
+    display: none;
     top: 0;
     left: 0;
     z-index: 1500;
@@ -285,7 +285,7 @@ h3 {
 
 .section-laporan {
     height: 120vh;
-    display: block;
+    display: none;
     position: relative;
     background-color: #5a2ca5;
     border-radius: 10px;
