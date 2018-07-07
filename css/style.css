@@ -37,7 +37,7 @@ body {
 
 .header {
     opacity: 1;
-    height: 105vh;
+    height: 115vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(173, 63, 216, 0.7)), to(rgba(71, 11, 121, 0.7))), url(../img/hero-3.jpg);
     background-image: linear-gradient(rgba(173, 63, 216, 0.7), 
     rgba(71, 11, 121, 0.7)), url(../img/hero-3.jpg);
@@ -90,7 +90,7 @@ body {
 
 .btn-mulai-1 {
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 12rem;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -158,7 +158,7 @@ body {
 /* ...... KET ...... */
 
 .section-ket {
-    height: 120vh;
+    height: 160vh;
 }
 
 .col {
@@ -167,6 +167,7 @@ body {
     background-color: #ecebec;
     position: relative;
     border-radius: 15px;
+    margin-top: 10rem;
     margin-bottom: 5rem;
     height: 20rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.699);
