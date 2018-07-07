@@ -25,21 +25,21 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width:480px) {
-    .closing { top: 88% }
+    .closing { top: 94% }
     .btn-back-2 { 
-        top: 92%;
+        top: 96%;
     }
     .btn-back-2,
     .btn-back-1 { right: 5%; }
-    .section-laporan { height: 145vh; }
+    .section-laporan { height: 155vh; }
     .note { 
         top: 15%; 
         margin-right: 3rem;
     }
     .copyright { padding: 5px 20px; }
     .foto-ibadah { 
-        left: 63%;
-        transform: translateX(-63%);
+        left: 50%;
+        transform: translateX(-50%);
         transform: scale(.5); 
     }
     .tambah-ibadah1,
@@ -49,8 +49,8 @@
         width: 12rem;
     }
     .tambah { 
-        left: 63%;
-        transform: translateX(-63%);
+        left: 50%;
+        transform: translateX(-50%);
         transform: scale(.5);
     }
     .nilai {
@@ -58,13 +58,14 @@
         height: 5.5rem;
     }
     .hitung { 
-        top: 50%;
-        right: 10%; 
+        top: 85%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
     .btn-mulai-2 { 
-        left: 73%;
-        transform: translateX(-73%);
+        left: 50%;
+        transform: translateX(-50%);
         width: 16rem; 
         text-align: center;
     }
