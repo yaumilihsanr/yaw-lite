@@ -60,9 +60,8 @@
         height: 5.5rem;
     }
     .hitung { 
-        top: 80%;
-        left: 50%;
-        transform: translateX(-50%); 
+        top: 50%;
+        right: 10%; 
     }
     body { width: 126%; }
     .btn-mulai-2 { 

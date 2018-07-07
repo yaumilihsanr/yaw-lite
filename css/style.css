@@ -38,11 +38,11 @@ body {
 .header {
     opacity: 1;
     height: 85vh;
-    background-image: -webkit-gradient(linear, left top, right bottom, 
-    from #8964c4d5, to #480574d5), url(../img/hero.jpg);
-    background-image: linear-gradient(
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#8964c4d5), to(#480574d5)), url(img/hero-0.jpg);
+    background-image: linear-gradient(#8964c4d5, #480574d5), url(../img/hero.jpg);
+    /*background-image: linear-gradient(
         to right bottom, #8964c4d5, #480574d5), url(../img/hero.jpg);
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);    
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);*/    
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
     background-size: cover;
     background-position: top;
@@ -124,7 +124,7 @@ body {
 }
 
 .btn-back-1 {
-    position: fixed;
+    position: absolute;
     top: 120%;
     right: 15%;
     margin-right: 2rem;
