@@ -46,7 +46,7 @@
     }
     .tambah-ibadah1,
     .tambah-ibadah2 { 
-        margin: 4rem 32% 0 32%;
+        margin-left: 4rem;
         height: 7rem;
         width: 12rem;
     }
@@ -71,10 +71,13 @@
         width: 16rem; 
         text-align: center;
     }
-
-
-}
-
+    .header {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+        background-image: linear-gradient(
+        to right, #8964c4d5, #480574d5), url(../img/hero-small.jpg);
+    }
+} 
 
 /* Big tablet to 1200px (widths smaller than 1140px row) */
 /*
